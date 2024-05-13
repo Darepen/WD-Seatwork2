@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  WAH WAH WAH WAH
+This is what I did for Seatwork 2 during Web Design Lab.
 </div>
 
 <br />
