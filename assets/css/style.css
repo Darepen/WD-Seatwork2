@@ -1,16 +1,21 @@
 /* General Styles */
 body {
-   font-family: Arial, sans-serif;
+   font-family: 'Helvetica Neue', Arial, sans-serif;
+   background-color: #f5f5f5;
+   color: #333;
    line-height: 1.6;
    margin: 0;
    padding: 0;
 }
 
 .container {
-   width: 80%;
+   width: 90%;
    max-width: 800px;
-   margin: 0 auto;
+   margin: 40px auto;
    padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
 }
 
 /* Header Styles */
@@ -19,9 +24,10 @@ header {
    margin-bottom: 40px;
 }
 
-header #name {
+header h1#name {
    font-size: 2.5em;
    margin: 0;
+   color: #2c3e50;
 }
 
 header #designation {
@@ -31,11 +37,12 @@ header #designation {
 header #designation .title {
    display: block;
    font-size: 1.2em;
+   color: #2980b9;
 }
 
 header #designation .organization {
    font-size: 1em;
-   color: #777;
+   color: #7f8c8d;
 }
 
 header .contact {
@@ -58,13 +65,15 @@ section {
 
 section h2.title {
    font-size: 1.8em;
-   border-bottom: 2px solid #333;
+   border-bottom: 2px solid #ecf0f1;
    padding-bottom: 5px;
    margin-bottom: 20px;
+   color: #34495e;
 }
 
 .description p {
    margin-bottom: 15px;
+   color: #7f8c8d;
 }
 
 /* Table Styles */
@@ -75,18 +84,21 @@ table {
 }
 
 table thead {
-   background-color: #f4f4f4;
+   background-color: #ecf0f1;
 }
 
 table thead td {
    font-weight: bold;
+   text-align: center;
    padding: 10px;
-   border: 1px solid #ddd;
+   border: 1px solid #bdc3c7;
+   color: #34495e;
 }
 
 table td {
-   padding: 10px;
-   border: 1px solid #ddd;
+   padding: 20px;
+   border: 1px solid #ecf0f1;
+   color: #34495e;
 }
 
 /* Project Styles */
@@ -97,11 +109,12 @@ table td {
 .project .title {
    font-size: 1.5em;
    margin-bottom: 5px;
+   color: #2980b9;
 }
 
 .project .meta {
    font-size: 0.9em;
-   color: #777;
+   color: #7f8c8d;
 }
 
 .project .meta .date {
@@ -110,5 +123,5 @@ table td {
 
 .project .description {
    font-size: 1em;
-   color: #333;
+   color: #7f8c8d;
 }
