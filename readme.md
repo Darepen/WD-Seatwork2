@@ -109,5 +109,9 @@ WD-MidtermExam
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
+|Certification Icons|Used in Page 3 for icons. |https://info.credly.com/product/acclaim|
+|Photo #1 in Projects Page|Used in Page 2 for visuals.|https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fenhancing-network-security-reliability-intrusion-detection-mahar&psig=AOvVaw15JkpFxWZG12R9aWC7pEtQ&ust=1716738142436000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCMiHuIuSqYYDFQAAAAAdAAAAABAE|
+|Photo #2 in Projects Page|Used in Page 2 for visuals.|https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Fdata-encryption-methods-article&psig=AOvVaw3nIPSmEcgQbm4coWfBO7WS&ust=1716738287476000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCNjwquCSqYYDFQAAAAAdAAAAABAE|
+|Photo #3 in Projects Page|Used in Page 2 for visuals.|https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.binalyze.com%2Fblog%2Fautomated-incident-response-preventing-cyber-attacks&psig=AOvVaw3lNZdFVoWE9AtewwvXBnLw&ust=1716738332779000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCPDlmeaSqYYDFQAAAAAdAAAAABAE|
 | Box Shadows | Used the Miscallaneous box shadows with minor adjustments. | https://copy-paste-css.com/box-shadows |
 |Resumé Inspiration| Took inspiration from the html only.|https://gist.github.com/theskumar/1877379|
