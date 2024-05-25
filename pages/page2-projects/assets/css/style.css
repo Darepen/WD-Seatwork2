@@ -1,41 +1,52 @@
-/* General Styles */
-
-header {
-    background-color: #333;
-    padding: 10px 0;
-    text-align: center;
-}
-
-bprojects {
-    font-weight: bold;
-    text-decoration: underline 2px;
-}
-
-header button {
-    border-radius: 50px;
-    background-color: #555;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-header button:hover {
-    background-color: #777;
-    transform: scale(1.1);
-}
+/* Header and Nav */
 
 body {
+    margin: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-image: -moz-linear-gradient(90deg, #f5f5f5 0%, #f8f8f8 100%);
+    background: linear-gradient(90deg, #f5f5f5 0%, #f8f8f8 100%);
     background-color: #f5f5f5;
     color: #333;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
 }
+
+header {
+    background-color: #2980b9;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 10px 8px 0px rgb(191 219 254);
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: #bfdbfe;
+    color: #000;
+    border-radius: 8px;
+    padding: 14px 34px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+header nav a:hover {
+    transform: scale(1.1);
+}
+
+header nav a.active {
+    background-color: #143d55;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+/* General Styles for Projects */
 
 .container {
     width: 90%;
@@ -43,116 +54,62 @@ body {
     margin: 40px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 8px 0px rgb(191 219 254);
     border-radius: 8px;
 }
 
- /* Header Styles */
-mheader {
-    text-align: center;
-    margin-bottom: 30px;
+section#projects {
+    margin-top: 20px;
 }
 
-mheader h1#name {
+section#projects .title {
     font-size: 2.5em;
-    margin: 0;
-    color: #2c3e50;
-}
-
-mheader #designation {
-    margin-top: 10px;
-}
-
-mheader #designation .title {
-    display: block;
-    font-size: 1.4em;
-    margin-bottom: 10px;
-    color: #2980b9;
-}
-
-mheader #designation .organization {
-    font-size: 1em;
-    color: #7f8c8d;
-    margin-bottom: 10px;
-}
-
-mheader .contact {
-    margin-top: 10px;
-}
-
-mheader .contact .email {
-    font-size: 1em;
-    color: #333;
- }
-
-/* Section Styles */
-.content {
+    text-align: center;
     margin-bottom: 40px;
 }
 
- section {
-    margin-bottom: 30px;
+section#projects .description {
+    margin-top: 20px;
 }
 
-section h2.title {
-    font-size: 1.8em;
-    border-bottom: 2px solid #0785d9;
-    padding-bottom: 5px;
+section#projects .project {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
-    color: #34495e;
-}
-
-.description p {
-    margin-bottom: 15px;
-    color: #7f8c8d;
-}
-
-/* Table Styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-table thead {
-    background-color: #ecf0f1;
-}
-
-table thead td {
-    font-weight: bold;
-    text-align: center;
     padding: 10px;
-    border: 1px solid #bdc3c7;
-    color: #34495e;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
 }
 
-table td {
-    padding: 20px;
-    border: 1px solid #ecf0f1;
-    color: #34495e;
+section#projects .project img {
+    width: auto;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Project Styles */
-.project {
-    margin-bottom: 20px;
+section#projects .project .project-details {
+    flex: 1;
 }
 
-.project .title {
-    font-size: 1.5em;
-    margin-bottom: 5px;
-    color: #2980b9;
+section#projects .project .title {
+    margin: 0;
+    font-size: 1.4em;
+    color: #333;
 }
 
-.project .meta {
-    font-size: 0.9em;
-    color: #7f8c8d;
+section#projects .project .meta {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
 }
 
-.project .meta .date {
-    float: right;
-}
-
-.project .description {
+section#projects .project .description {
     font-size: 1em;
-    color: #7f8c8d;
+    color: #555;
+    line-height: 1.6;
 }

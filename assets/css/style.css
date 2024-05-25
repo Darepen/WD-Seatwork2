@@ -1,158 +1,91 @@
 /* General Styles */
 
-header {
-   background-color: #333;
-   padding: 10px 0;
-   text-align: center;
-}
-
-bhome {
-   font-weight: bold;
-   text-decoration: underline 2px;
-}
-
-header button {
-   border-radius: 50px;
-   background-color: #555;
-   color: white;
-   border: none;
-   padding: 10px 20px;
-   margin: 0 10px;
-   cursor: pointer;
-   transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-header button:hover {
-   background-color: #777;
-   transform: scale(1.1);
-}
-
 body {
-   font-family: 'Helvetica Neue', Arial, sans-serif;
-   background-image: -moz-linear-gradient(90deg, #f5f5f5 0%, #f8f8f8 100%);
-   background-color: #f5f5f5;
-   color: #333;
-   line-height: 1.6;
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(90deg, #f5f5f5 0%, #f8f8f8 100%);
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
 }
 
-.container {
-   width: 90%;
-   max-width: 800px;
-   margin: 40px auto;
-   padding: 20px;
-   background-color: #fff;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   border-radius: 8px;
+header {
+    background-color: #2980b9;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 10px 8px 0px rgb(191 219 254);
 }
 
-/* Header Styles */
-mheader {
-   text-align: center;
-   margin-bottom: 30px;
+header nav {
+    display: inline-block;
 }
 
-mheader h1#name {
-   font-size: 2.5em;
-   margin: 0;
-   color: #2c3e50;
+header nav a {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: #bfdbfe;
+    color: #000;
+    border-radius: 8px;
+    padding: 14px 34px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-mheader #designation {
-   margin-top: 10px;
+header nav a:hover {
+    transform: scale(1.1);
 }
 
-mheader #designation .title {
-   display: block;
-   font-size: 1.4em;
-   margin-bottom: 10px;
-   color: #2980b9;
+header nav a.active {
+    background-color: #143d55;
+    transform: scale(1.1);
+    color: #fff;
 }
 
-mheader #designation .organization {
-   font-size: 1em;
-   color: #7f8c8d;
-   margin-bottom: 10px;
+section.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
 }
 
-mheader .contact {
-   margin-top: 10px;
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
 }
 
-mheader .contact .email {
-   font-size: 1em;
-   color: #333;
+.hero .container {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 10px 8px 0px rgb(191 219 254);
+    border-radius: 8px;
+    text-align: left;
+    color: #333;
 }
 
-/* Section Styles */
-.content {
-   margin-bottom: 40px;
+.hero h1 {
+    font-size: xxx-large;
+    margin-bottom: auto;
+    text-align: center;
 }
 
-section {
-   margin-bottom: 30px;
-}
-
-section h2.title {
-   font-size: 1.8em;
-   border-bottom: 2px solid #0785d9;
-   padding-bottom: 5px;
-   margin-bottom: 20px;
-   color: #34495e;
-}
-
-.description p {
-   margin-bottom: 15px;
-   color: #7f8c8d;
-}
-
-/* Table Styles */
-table {
-   width: 100%;
-   border-collapse: collapse;
-   margin-bottom: 20px;
-}
-
-table thead {
-   background-color: #ecf0f1;
-}
-
-table thead td {
-   font-weight: bold;
-   text-align: center;
-   padding: 10px;
-   border: 1px solid #bdc3c7;
-   color: #34495e;
-}
-
-table td {
-   padding: 20px;
-   border: 1px solid #ecf0f1;
-   color: #34495e;
-}
-
-/* Project Styles */
-.project {
-   margin-bottom: 20px;
-}
-
-.project .title {
-   font-size: 1.5em;
-   margin-bottom: 5px;
-   color: #2980b9;
-}
-
-.project .meta {
-   font-size: 0.9em;
-   color: #7f8c8d;
-}
-
-.project .meta .date {
-   float: right;
-}
-
-.project .description {
-   font-size: 1em;
-   color: #7f8c8d;
+.hero p {
+    font-size:25px;
+    text-align: justify;
 }

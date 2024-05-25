@@ -1,19 +1,67 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
-    <title>WD-Pedreña, Julio Jose M. - Midterm Exam</title>
+    <meta charset="UTF-8">
+    <title>WD-Pedreña, Julio Jose M. - Projects</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
 </head>
 <body>
     <header>
-        <button onclick="window.location.href='/index.html'"><bhome>Home</bhome></button>
-        <button onclick="window.location.href='/pages/page1-résumé/index.html'"><bresume>Résumé</bresume></button>
-        <button onclick="window.location.href='/pages/page2-projects/index.html'"><bprojects>Projects</bprojects></button>
-        <button onclick="window.location.href='/pages/page3-certifications/index.html'"><bcertifications>Certifications</bcertifications></button>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/pages/page1-résumé/index.html">Résumé</a>
+            <a href="/pages/page2-projects/index.html" class="active">Projects</a>
+            <a href="/pages/page3-certifications/index.html">Certifications</a>
+        </nav>
     </header>
 
-<div class="container">
-    <!-- Your existing content here -->
-</div> <!-- end container -->
+    <div class="container">
+        <section id="projects">
+            <h1 class="title">Projects Undertaken</h1>
+            <div class="description">
+                <!-- Project 1 -->
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="title">Network Security Enhancement</h3>
+                        <div class="meta">
+                            <time>Aug 2028 - Nov 2029</time>
+                        </div>
+                        <p class="description">
+                            Led a project to enhance the network security of the organization by implementing advanced firewall configurations and intrusion detection systems.
+                        </p>
+                        <img src="./assets/img/proj1.jpeg" alt="Network Security Enhancement">
+                    </div>
+                </article> <!-- end project 1 description -->
+
+                <!-- Project 2 -->
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="title">Data Encryption Implementation</h3>
+                        <div class="meta">
+                            <time>Jan 2028 - Jun 2028</time>
+                        </div>
+                        <p class="description">
+                            Implemented comprehensive data encryption protocols to secure sensitive organizational data both in transit and at rest.
+                        </p>
+                        <img src="./assets/img/proj2.avif" alt="Data Encryption Implementation">
+                    </div>
+                </article> <!-- end project 2 description -->
+
+                <!-- Project 3 -->
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="title">Incident Response Automation</h3>
+                        <div class="meta">
+                            <time>Mar 2027 - Sep 2027</time>
+                        </div>
+                        <p class="description">
+                            Developed and deployed an automated incident response system to efficiently manage and mitigate security incidents.
+                        </p>
+                        <img src="./assets/img/proj3.webp" alt="Incident Response Automation">
+                    </div>
+                </article> <!-- end project 3 description -->
+            </div> <!-- end projects description -->
+        </section> <!-- end projects section -->
+    </div> <!-- end container -->
+</body>
+</html>
