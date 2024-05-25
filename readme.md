@@ -61,13 +61,13 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
-The project is a website containing a résumé and details about me.
+##### The project is a website containing a résumé and details about me.
 - Whats the purpose
-The purpose is to showcase my skills and experience through my résumé.
+##### The purpose is to showcase my skills and experience through my résumé.
 - What are key components
-  A MultiPage Website.
+##### A MultiPage Website.
 - What technology used and how it is used
-Used html and an external css.
+##### Used html and an external css.
 
 
 ### Key Components

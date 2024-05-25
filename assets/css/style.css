@@ -80,12 +80,12 @@ section.hero {
 }
 
 .hero h1 {
-    font-size: xxx-large;
+    font-size: 40px;
     margin-bottom: auto;
     text-align: center;
 }
 
 .hero p {
-    font-size:25px;
+    font-size:20px;
     text-align: justify;
 }
